@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Desafio Thera Solutions">
+        <meta name="keywords" content="HTML5, CSS3, JavaScript">
+        <meta name="author" content="Luan Braga">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <title>Join Us Today</title>
+    </head>
+    <body id="corpo">
+        <header id="cabecalho">
+            <div id="btn-container">
+                <div id="btn-hamburger">
+                    <div class="btn-listra"></div>
+                    <div class="btn-listra"></div>
+                    <div class="btn-listra"></div>
+                </div>
+                <div id="btn-fechar">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <img src="img/png/logo.png" id="logo-cabecalho" alt="">
+            <div id="texto-cabecalho">
+                <div id="titulo-1">
+                    LOGO
+                </div>
+                <div id="titulo-2">
+                    HERE
+                </div>
+            </div>
+            <img src="img/png/sino_notif.png" id="notif-icone" alt="">
+        </header>
+        <nav id="menu">
+            <section id="links-menu">
+                <a href="#">HOME</a>
+                <a href="#">ARTICLES</a>
+                <a href="#">AUDIO</a>
+            </section>
+            <section id="container-busca">
+                    <input type="text" name="busca" id="barra-busca" placeholder="Search">
+            </section>
+            <section id="links-menu-mobile">
+                <a href="#" class="linksmobile">HOME</a>
+                <a href="#" class="linksmobile">ARTICLES</a>
+                <a href="#" class="linksmobile">AUDIO</a>
+            </section>
+        </nav>
+        <main id="principal">
+            <section id="flex-container-1">
+                <h1>Join us today</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </section>
+            <section id="flex-container-2">
+                <div class="item">
+                    <img src="img/png/relogio.png" alt="" class="img-generica">
+                    <h2>Spend time smart</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="item">
+                    <img src="img/png/microfone.png" alt="" class="img-generica">
+                    <h2>Audio podcast</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="item">
+                    <img src="img/png/grafico.png" alt="" class="img-generica">
+                    <h2>Boost your time</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="item">
+                    <img src="img/png/diamante.png" alt="" class="img-generica">
+                    <h2>Quality</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </section>
+            <section id="flex-container-3">
+                <div id="grupo-botao">
+                    <button type="button" class="botao-generico" id="botao-assinar">Sign up</button>
+                    <button type="button" class="botao-generico" id="botao-logar">Login</button>
+                </div>
+                <div id="sing-up">
+                    <form action="" method="post" target="_top" name="formAssinar" id="formulario-sign-up">
+                        <div id="div-genero">
+                            <button type="button" class="botao-genero" id="botaoM"><img src="img/png/btn_men_bk.png" alt="" id="imgMen"></button>
+                            <button type="button" class="botao-genero" id="botaoF"><img src="img/png/btn_wmen_bk.png" alt="" id="imgWomen"></button>
+                        </div>
+                        <div id="div-inputs">
+                            <input type="text" placeholder="UserName" class="input-form">
+                            <input type="email" placeholder="Mail" class="input-form">
+                            <select class="input-form">
+                                <option selected >What Are Your Interest?</option>
+                            </select>
+                        </div>
+                        <button type="submit" value="Enviar" id="botao-env-form">+</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </body>
+    <script src="js/home.js"></script>
+</html>
